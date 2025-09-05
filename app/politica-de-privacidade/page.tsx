@@ -33,8 +33,8 @@ export default function PoliticaDePrivacidadePage() {
                 <strong>Última atualização:</strong> {new Date().toLocaleDateString("pt-BR")}
               </p>
               <p>
-                A VisionXMA está comprometida com a proteção da sua privacidade e dos seus dados pessoais. Esta política
-                explica como coletamos, usamos, armazenamos e protegemos suas informações.
+                A VisionX Inova Simples, responsável pelo CONTROLE.APP, está comprometida com a proteção da sua privacidade e dos seus dados pessoais.
+                Esta política explica como coletamos, usamos, armazenamos e protegemos suas informações.
               </p>
             </div>
 
@@ -102,6 +102,12 @@ export default function PoliticaDePrivacidadePage() {
                   <li>
                     <strong>Monitoramento:</strong> Monitoramento 24/7 para detectar atividades suspeitas
                   </li>
+                  <p>
+                    <strong>Aviso Importante:</strong> Apesar de todos os esforços, o sistema pode estar sujeito 
+                    a falhas ocasionais do Firebase ou a vulnerabilidades decorrentes de ataques hackers. 
+                    Embora adotemos boas práticas, <strong>não é possível garantir 100% de proteção contra tais riscos.</strong>
+
+                  </p>
                 </ul>
               </div>
 
