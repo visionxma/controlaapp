@@ -16,7 +16,7 @@ export default function PoliticaDePrivacidadePage() {
           </Button>
           <div>
             <h1 className="text-3xl font-bold text-foreground">Política de Privacidade</h1>
-            <p className="text-muted-foreground">Sistema de Controle de Frotas - VisionXMA</p>
+            <p className="text-muted-foreground">CONTROLA.APP - VisionXMA</p>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export default function PoliticaDePrivacidadePage() {
                 <strong>Última atualização:</strong> {new Date().toLocaleDateString("pt-BR")}
               </p>
               <p>
-                A VisionX Inova Simples, responsável pelo CONTROLE.APP, está comprometida com a proteção da sua privacidade e dos seus dados pessoais.
+                A VisionX Inova Simples, responsável pelo CONTROLA.APP, está comprometida com a proteção da sua privacidade e dos seus dados pessoais.
                 Esta política explica como coletamos, usamos, armazenamos e protegemos suas informações.
               </p>
             </div>
@@ -85,7 +85,7 @@ export default function PoliticaDePrivacidadePage() {
                 <p>Implementamos medidas rigorosas de segurança:</p>
                 <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
                   <li>
-                    <strong>Criptografia:</strong> Todos os dados são criptografados em trânsito e em repouso
+                    <strong>Criptografia:</strong> Todos os dados são criptografados
                   </li>
                   <li>
                     <strong>Firebase Security:</strong> Utilizamos a infraestrutura segura do Google Firebase
