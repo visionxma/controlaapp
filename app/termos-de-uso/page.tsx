@@ -16,7 +16,7 @@ export default function TermosDeUsoPage() {
           </Button>
           <div>
             <h1 className="text-3xl font-bold text-foreground">Termos de Uso</h1>
-            <p className="text-muted-foreground">Sistema de Controle de Frotas - VisionXMA</p>
+            <p className="text-muted-foreground">CONTROLE.APP - VisionXMA</p>
           </div>
         </div>
 
@@ -33,8 +33,8 @@ export default function TermosDeUsoPage() {
                 <strong>Última atualização:</strong> {new Date().toLocaleDateString("pt-BR")}
               </p>
               <p>
-                Bem-vindo ao Sistema de Controle de Frotas da VisionXMA. Ao utilizar nosso sistema, você concorda com os
-                seguintes termos e condições de uso.
+                Bem-vindo ao CONTROLE.APP, o Sistema de Supermercado desenvolvido pela VisionX Inova Simples. 
+                Ao utilizar nosso sistema, você concorda com os seguintes termos e condições de uso.
               </p>
             </div>
 
@@ -46,14 +46,14 @@ export default function TermosDeUsoPage() {
                 </h3>
                 <p>
                   Ao acessar e usar este sistema, você aceita estar vinculado a estes Termos de Uso. Se você não
-                  concordar com qualquer parte destes termos, não deve usar o sistema.
+                  concordar com qualquer parte destes termos, não deve utilizar o sistema.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-foreground mb-2">2. Descrição do Serviço</h3>
                 <p>
-                  O Sistema de Controle de Frotas é uma plataforma web desenvolvida pela VisionXMA para gerenciamento de
+                  O CONTROLE.APP é uma plataforma web desenvolvida pela VisionXMA para gerenciamento de
                   produtos, estoque, vendas e relatórios empresariais. O sistema oferece funcionalidades de:
                 </p>
                 <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
@@ -87,12 +87,16 @@ export default function TermosDeUsoPage() {
                   automático. Todos os dados são armazenados de forma segura no Firebase e são acessíveis apenas por
                   você.
                 </p>
+                <p>
+                Entretanto, informamos que o sistema está sujeito a falhas ocasionais do Firebase e a possíveis vulnerabilidades 
+                decorrentes de ataques hackers. Apesar de adotarmos boas práticas de segurança, <strong>não podemos garantir 100% de proteção contra tais eventos.</strong>
+                </p>
               </div>
 
               <div>
                 <h3 className="font-semibold text-foreground mb-2">5. Propriedade Intelectual</h3>
                 <p>
-                  O sistema, incluindo seu código, design, funcionalidades e documentação, é propriedade da VisionXMA.
+                  O sistema, incluindo seu código, design, funcionalidades e documentação, é propriedade da VisionX Inova Simples.
                   Você recebe apenas uma licença de uso, não de propriedade.
                 </p>
               </div>
@@ -100,7 +104,7 @@ export default function TermosDeUsoPage() {
               <div>
                 <h3 className="font-semibold text-foreground mb-2">6. Limitações de Responsabilidade</h3>
                 <p>
-                  A VisionXMA não se responsabiliza por perdas de dados decorrentes de uso inadequado do sistema, falhas
+                  A VisionX Inova Simples não se responsabiliza por perdas de dados decorrentes de uso inadequado do sistema, falhas
                   de conectividade ou eventos fora de nosso controle. Recomendamos backups regulares de dados críticos.
                 </p>
               </div>
